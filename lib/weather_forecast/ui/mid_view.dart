@@ -44,6 +44,7 @@ class MidView extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.symmetric(vertical: 4, horizontal: 12),
                 child: Row(
+
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text("${forecastList[0].temp!.day.toStringAsFixed(0)}°F",
